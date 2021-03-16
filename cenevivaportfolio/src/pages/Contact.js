@@ -1,12 +1,10 @@
 import React from "react";
-import Footer from "../components/Footer";
-import Navbar from "../components/Header";
+import Form from "../components/Form";
 
 function Contact() {
   return (
     <div>
-      <Navbar />
-      <Footer />
+      <Form />
     </div>
   );
 }
