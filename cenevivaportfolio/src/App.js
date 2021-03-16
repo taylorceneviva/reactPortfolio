@@ -1,10 +1,10 @@
 import React from "react";
-import Container from "./components/Container";
+import Project from "./pages/Project";
 
 function App() {
   return (
     <div>
-     <Container/>
+     <Project/>
     </div>
   );
 }
