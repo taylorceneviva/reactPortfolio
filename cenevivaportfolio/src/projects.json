@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "name": "Hiking Planner",
+      "image": "./public/images/planner1.png",
+      "description": "",
+      "link": "https://campingplanner.herokuapp.com/",
+      "github": "https://github.com/amcmilne/Camping-Planner"
+    },
+    {
+      "id": 2,
+      "name": "Fittness Tracker",
+      "image": "./images/",
+      "description": "Users are able to create and track daily workouts. Log multiple exercieses or workouts in a day.  track the name, type, weight, sets, reps, and duration of exercise. Track distance for cardio exercises.",
+      "link": "https://aqueous-shelf-98353.herokuapp.com/",
+      "github": "https://github.com/taylorceneviva/workoutTracker"
+    },
+    {
+        "id": 3,
+        "name": "Employee Directory",
+        "image": "./src/images/brew1.png",
+        "description": "Allows users to view an employee directory and filter search by employee name.",
+        "link": "https://taylorceneviva.github.io/react_EmployeeDirectory/",
+        "github": "https://github.com/taylorceneviva/react_EmployeeDirectory/tree/main/react_employeedirectory"
+      },
+      {
+        "id": 4,
+        "name": "BREWFINDER",
+        "image": "./src/images/brew1.png",
+        "description": "",
+        "link": "https://www.linkedin.com/in/taylorceneviva/",
+        "github": ""
+      },
+      {
+        "id": "Budget Tracker",
+        "name": "Brew",
+        "image": "./src/images/brew1.png",
+        "description": "Users are able to keep track of their budget withdrawls and deposits. This app also allows offline use; when returning online, offline enteries should be added to tracker.",
+        "link": "https://ancient-mountain-68750.herokuapp.com/",
+        "github": "https://github.com/taylorceneviva/budgetTracker"
+      },
+      {
+        "id": 6,
+        "name": "Password Generator",
+        "image": "./src/images/brew1.png",
+        "description": "Generates a random password for users based on answered promts.",
+        "link": "https://taylorceneviva.github.io/random-password.generator/",
+        "github": "https://github.com/taylorceneviva/random-password.generator"
+      }
+
+    
+  ]
