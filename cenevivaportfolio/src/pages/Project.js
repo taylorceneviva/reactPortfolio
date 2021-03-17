@@ -1,14 +1,30 @@
-import React from "react";
-import Footer from "../components/Footer";
-import Navbar from "../components/Header";
+import React, { Component } from "react";
+import Projects from "../projects.json";
+import ProjectCard from "../components/ProjectCard";
 
-function Project() {
-  return (
-    <div>
-      <Navbar />
-      <Footer />
-    </div>
-  );
+class Project extends Component {
+  state = {
+    Projects,
+  };
+  render() {
+    return (
+      <div>
+        {this.state.Projects.map((project) => {
+          return (
+            <ProjectCard
+              name={project.name}
+              id={project.id}
+              key={project.id}
+              image={project.image}
+              description={project.description}
+              link={project.link}
+              github={project.github}
+            />
+          );
+        })}
+      </div>
+    );
+  }
 }
 
 export default Project;
