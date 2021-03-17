@@ -40,7 +40,7 @@ function About() {
         </div>
       </div>
       <img
-        src="./images/me.jpg"
+        src="https://github.com/taylorceneviva/reactPortfolio/blob/main/cenevivaportfolio/public/images/me.jpg?raw=true"
         className="card-img"
         alt="Taylor Ceneviva"
         style={{}}
